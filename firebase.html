@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>firebase</title>
+</head>
+<body>
+
+<div id="app"></div>
+
+<input type="text" id="txtData" placeholder="Any String"/>
+<button onclick="addData()">Add Data</button>
+<hr/>
+<button onclick="readData()">Read Data</button>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyChprip1Kkpcm_4I2cgJisHf7NYHYVH1PI",
+    authDomain: "jason-30794.firebaseapp.com",
+    databaseURL: "https://jason-30794.firebaseio.com",
+    projectId: "jason-30794",
+    storageBucket: "jason-30794.appspot.com",
+    messagingSenderId: "388886771274"
+  };
+  firebase.initializeApp(config);
+
+</script>
+<script type="text/javascript" src="js/firebase.js"></script>	
+
+</body>
+</html>
